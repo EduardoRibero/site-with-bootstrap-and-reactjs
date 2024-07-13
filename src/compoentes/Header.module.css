@@ -1,30 +1,20 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-header{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
+    background-color: rgb(109, 63, 63);
 }
 
 .logo{
-    width: 95px;
-    height: 95px;
+    width: 75px;
+    height: 75px;
     margin: 10px;
+    border-radius: 80px;
 }
 
-nav{
+.nav{
     margin: 10px;
-}
-
-.btn{
-    margin: 10px;
-    padding: 10px;
-    border: solid 1px black;
-    color: black;
 }
 
 .link{
