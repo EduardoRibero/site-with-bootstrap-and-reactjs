@@ -2,7 +2,7 @@ import React from 'react'
 
 const Orcamento = () => {
   return (
-    <div>Orcamento</div>
+    <div>Budget</div>
   )
 }
 

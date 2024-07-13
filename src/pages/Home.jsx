@@ -45,7 +45,7 @@ const Home = () => {
         </div>
         <div className={styles.historic}>
             <div> 
-                <img src="https://img.myloview.com.br/posters/construtor-icone-transparente-design-de-simbolo-de-construtor-de-colecao-de-profissoes-400-147343245.jpg" alt="imgCarreira" />
+                <img src="https://img.myloview.com.br/posters/construtor-icone-transparente-design-de-simbolo-de-construtor-de-colecao-de-profissoes-400-147343245.jpg" alt="imgMarket" />
                 <h3>On the market for over 10 years.</h3>
             </div>
             <div>

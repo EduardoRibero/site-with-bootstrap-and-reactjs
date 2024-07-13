@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column
+}
+
+/*HEADER*/
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items:center;
+  background-color: rgb(104 180 237);
+}
+
+.logo{
+  width: 65px;
+  height: 65px;
+  margin: 10px;
+  border-radius: 80px;
+}
+
+.ctt{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.ctt p{ 
+  font-size: 0.60rem;
+  margin-right: 20px;
+}
+
+.menu, .navH{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link{
+  color: black;
+  text-decoration: none;
+  font-size: 0.60rem;
+  margin-right: 20px;
+}
+
+.btn {
+  color: black;
+  font-size: 10px;
+  background-color: rgba(54, 151, 231, 0);
+  padding: 1px;
+  border: none;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(104 180 237);
+}
+.address{
+  width: 300px;
+}
+
+.ass{
+  padding: 10px;
+  font-size: 9px;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.navF{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.link{
+  color: black;
+  margin: 5px;
+  text-decoration: none;
+}
