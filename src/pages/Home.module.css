@@ -1,3 +1,4 @@
+/*MAIN*/
 .main{
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@
     padding: 30px;
     text-align: center;
 }
-
+/*SERVICES*/
 .service article img{
     height: 270px;
     width: 270px;
@@ -38,4 +39,60 @@
     flex-direction: row-reverse;
     background-color: rgb(104 180 237);
     padding: 20px;
+ }
+ /*HISTORIC*/
+ .historic{
+    background-color: rgb(53, 91, 121);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ .historic div{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid  rgb(49, 48, 48);
+    border-radius: 40px;
+ }
+
+ .historic div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 10px;
+ }
+ /*ASSESSMENT*/
+ .assessment{
+    background-color: rgb(127, 199, 253);
+    display: flex;
+    padding: 40px;
+ }
+
+ .assessment article{
+    width: 300px;
+ }
+
+ .profile{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+ }
+
+ .profile h4{
+    padding: 10px;
+ }
+
+ .assessment article div img{
+    width: 30px;
+    height: 30px;
+ }
+
+ .star{
+    align-items: start;
+ }
+
+ .assessment article p{
+    padding: 10px;
  }

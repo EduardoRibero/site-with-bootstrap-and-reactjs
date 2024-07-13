@@ -51,25 +51,31 @@ const Home = () => {
         </div>
         <div className={styles.assessment}>
             <article>
-                <img src="https://www.otimizy.com.br/wp-content/uploads/2017/05/atendimento-ao-cliente.jpg" alt="imgClient" />
-                <h4>Edivandro Reirs</h4>
-                <div className="star">
+                <div className={styles.profile}>
+                    <img src="https://www.otimizy.com.br/wp-content/uploads/2017/05/atendimento-ao-cliente.jpg" alt="imgClient" />
+                    <h4>Edivandro Reirs</h4>
+                </div>
+                <div className={styles.star}>
                     ⭐⭐⭐⭐
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem mollitia magnam quibusdam similique quam delectus, consequuntur voluptatum exercitationem doloribus. Consequatur aliquid, at architecto earum deserunt doloribus fugit dolorum ab eaque!</p>
             </article>
             <article>
-                <img src="https://www.salesforce.com/br/blog/wp-content/uploads/sites/6/2023/06/blog-satisfacao-do-cliente.png" alt="imgClient" />
-                <h4>Aline Morais Reirs</h4>
-                <div className="star">
+                <div className={styles.profile}> 
+                    <img src="https://www.salesforce.com/br/blog/wp-content/uploads/sites/6/2023/06/blog-satisfacao-do-cliente.png" alt="imgClient" />
+                    <h4>Aline Morais Reirs</h4>
+                </div>
+                <div className={styles.star}>
                     ⭐⭐⭐⭐
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem mollitia magnam quibusdam similique quam delectus, consequuntur voluptatum exercitationem doloribus. Consequatur aliquid, at architecto earum deserunt doloribus fugit dolorum ab eaque!</p>
             </article>
             <article>
-                <img src="https://negocieapp.com.br/wp-content/uploads/2020/05/cliente-feliz.jpg" alt="imgClient" />
-                <h4>Carlos Umberto</h4>
-                <div className="star">
+                <div className={styles.profile}>
+                    <img src="https://negocieapp.com.br/wp-content/uploads/2020/05/cliente-feliz.jpg" alt="imgClient" />
+                    <h4>Carlos Umberto</h4>
+                </div>
+                <div className={styles.star}>
                     ⭐⭐⭐⭐
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem mollitia magnam quibusdam similique quam delectus, consequuntur voluptatum exercitationem doloribus. Consequatur aliquid, at architecto earum deserunt doloribus fugit dolorum ab eaque!</p>
