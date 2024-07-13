@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://faro.edu.br/wp-content/uploads/2017/04/mercado-de-engenharia-civil-como-se-preparar-para-a-carreira-990x450.jpeg.webp);
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.main h1 {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.service article img{
+    height: 270px;
+    width: 270px;
+    border-radius: 130px;
+}
+
+.service div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.revers{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(127, 199, 253);
+    padding: 20px;
+}
+
+.revers2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(104 180 237);
+    padding: 20px;
+ }

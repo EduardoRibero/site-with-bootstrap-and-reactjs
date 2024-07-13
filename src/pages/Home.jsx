@@ -1,36 +1,46 @@
 import React from 'react'
+import styles from './Home.module.css'
+import BtnOrcamento from '../compoentes/btnOrcamento'
 
 const Home = () => {
   return (
     <div>
-        <div className="Main">
+        <div className={styles.main}>
             <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto velit odit, eveniet vitae at facere harum rerum laboriosam recusandae temporibus quo consectetur qui laborum suscipit accusamus numquam laudantium debitis.</h1>
-            <img src="https://www.area17.com.br/admin/fotos/estabelecimentos/construpint-reformas-em-geral-jarinu-55621_63604ee237bba.jpg" alt="HomeImg"/>
+            <BtnOrcamento className={styles.btn}></BtnOrcamento>
         </div>
-        <div className="Services">
-            <article className="Pintura">
+        <div className={styles.service}>
+            <article className={styles.revers}>
                 <img src="https://static3.depositphotos.com/1010695/262/i/450/depositphotos_2622490-stock-photo-restoration-works-the-house-painter.jpg" alt="imgPintura" />
-                <h3>Pintura</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                <div>
+                    <h3>Pintura</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                </div>
             </article>
-            <article className="Acabamento">
+            <article className={styles.revers2}>
                 <img src="https://lh5.googleusercontent.com/proxy/R_GTAXtefZ-VJpXJHhguKFynsRRBiKpuJxrajWag8ZosIyn3XTBzNjj6OXc7TIlzneD3sRs9gzpRs-B6Kl_hnKb0H2KbEFclw7gedjA" alt="imgAcabamento" />
-                <h3>Acabamento</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                <div>
+                    <h3>Acabamento</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                </div> 
             </article>
-            <article className="Eletrica">
+            <article className={styles.revers}>
                 <img src="https://www.centraldalapa.com/wp-content/uploads/2016/11/Um-aumento-na-demanda-de-equipamentos-requereu-melhores-instalaes-eltricas.jpg" alt="imgEletrica" />
-                <h3>Elétrica</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                <div>
+                    <h3>Elétrica</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                </div>
             </article>
-            <article className="Reparos">
+            <article className={styles.revers2}>
                 <img src="https://faculdadeeleven.com.br/wp-content/uploads/2024/01/curso-de-reparos-e-reformas-hidraulica.webp" alt="imgReparos" />
-                <h3>Reparos</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                <div>
+                    <h3>Reparos</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                </div>
             </article>
         </div>
-        <div className="Historic">
-            <div>
+        <div className={styles.historic}>
+            <div> 
                 <img src="https://img.myloview.com.br/posters/construtor-icone-transparente-design-de-simbolo-de-construtor-de-colecao-de-profissoes-400-147343245.jpg" alt="imgCarreira" />
                 <h3>No mercado a mais de 10 anos.</h3>
             </div>
@@ -39,7 +49,7 @@ const Home = () => {
                 <h3>Mais de 1000 clinetes satisfeitos!</h3>
             </div>
         </div>
-        <div className="Assessment">
+        <div className={styles.assessment}>
             <article>
                 <img src="https://www.otimizy.com.br/wp-content/uploads/2017/05/atendimento-ao-cliente.jpg" alt="imgClient" />
                 <h4>Edivandro Reirs</h4>
