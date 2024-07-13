@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from "./Header.module.css"
-import BtnOrcamento from './btnOrcamento'
+import Btn from './btn'
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
             <Link className={styles.link} to="/doubts">Doubts</Link>
             <Link className={styles.link} to="/contact">Contact</Link>
         </nav>
-        <BtnOrcamento></BtnOrcamento>
+        <Btn>scheduling</Btn>
     </header>
   )
 }

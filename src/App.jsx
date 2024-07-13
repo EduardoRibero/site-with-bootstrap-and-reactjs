@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Doubts from './pages/Doubts';
 import Contact from './pages/Contact';
-import Orcamento from './pages/Orcamento';
+import Budget from './pages/Budget';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/doubts" element={<Doubts/>}/>
             <Route path="/contact" element={<Contact/>}/>
-            <Route path="/Orcamento" element={<Orcamento/>}/>
+            <Route path="/budget" element={<Budget/>}/>
           </Route>
         </Routes>
         <Footer></Footer>

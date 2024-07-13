@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './Home.module.css'
-import BtnOrcamento from '../compoentes/btnOrcamento'
+import Btn from '../compoentes/btn'
 
 const Home = () => {
   return (
     <div>
         <div className={styles.main}>
             <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto velit odit, eveniet vitae at facere harum rerum laboriosam recusandae temporibus quo consectetur qui laborum suscipit accusamus numquam laudantium debitis.</h1>
-            <BtnOrcamento className={styles.btn}></BtnOrcamento>
+            <Btn>Budget</Btn>
         </div>
         <div className={styles.service}>
             <article className={styles.revers}>
@@ -15,6 +15,7 @@ const Home = () => {
                 <div>
                     <h3>Pintura</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                    <Btn>More</Btn>
                 </div>
             </article>
             <article className={styles.revers2}>
@@ -22,6 +23,7 @@ const Home = () => {
                 <div>
                     <h3>Acabamento</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                    <Btn>More</Btn>
                 </div> 
             </article>
             <article className={styles.revers}>
@@ -29,6 +31,7 @@ const Home = () => {
                 <div>
                     <h3>Elétrica</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                    <Btn>More</Btn>
                 </div>
             </article>
             <article className={styles.revers2}>
@@ -36,17 +39,18 @@ const Home = () => {
                 <div>
                     <h3>Reparos</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
+                    <Btn>More</Btn>
                 </div>
             </article>
         </div>
         <div className={styles.historic}>
             <div> 
                 <img src="https://img.myloview.com.br/posters/construtor-icone-transparente-design-de-simbolo-de-construtor-de-colecao-de-profissoes-400-147343245.jpg" alt="imgCarreira" />
-                <h3>No mercado a mais de 10 anos.</h3>
+                <h3>On the market for over 10 years.</h3>
             </div>
             <div>
                 <img src="https://img.myloview.com.br/posters/repair-tools-transparent-icon-repair-tools-symbol-design-from-user-interface-collection-400-167160203.jpg" alt="imgClient" />
-                <h3>Mais de 1000 clinetes satisfeitos!</h3>
+                <h3>More than 1000 satisfied customers!</h3>
             </div>
         </div>
         <div className={styles.assessment}>
@@ -71,7 +75,7 @@ const Home = () => {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem mollitia magnam quibusdam similique quam delectus, consequuntur voluptatum exercitationem doloribus. Consequatur aliquid, at architecto earum deserunt doloribus fugit dolorum ab eaque!</p>
             </article>
             <article>
-                <div className={styles.profile}>
+                <div >
                     <img src="https://negocieapp.com.br/wp-content/uploads/2020/05/cliente-feliz.jpg" alt="imgClient" />
                     <h4>Carlos Umberto</h4>
                 </div>
