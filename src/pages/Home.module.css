@@ -13,14 +13,6 @@
     padding: 30px;
     text-align: center;
 }
-/*SERVICES*/
-
-.service{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
  /*HISTORIC*/
  .historic{
     background-color: rgb(53, 91, 121);
