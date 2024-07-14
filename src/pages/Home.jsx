@@ -1,47 +1,59 @@
 import React from 'react'
 import styles from './Home.module.css'
-import Btn from '../compoentes/btn'
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
 
 const Home = () => {
   return (
     <div>
         <div className={styles.main}>
             <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto velit odit, eveniet vitae at facere harum rerum laboriosam recusandae temporibus quo consectetur qui laborum suscipit accusamus numquam laudantium debitis.</h1>
-            <Btn>Budget</Btn>
         </div>
         <div className={styles.service}>
-            <article className={styles.revers}>
-                <img src="https://static3.depositphotos.com/1010695/262/i/450/depositphotos_2622490-stock-photo-restoration-works-the-house-painter.jpg" alt="imgPintura" />
-                <div>
-                    <h3>Pintura</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
-                    <Btn>More</Btn>
-                </div>
-            </article>
-            <article className={styles.revers2}>
-                <img src="https://lh5.googleusercontent.com/proxy/R_GTAXtefZ-VJpXJHhguKFynsRRBiKpuJxrajWag8ZosIyn3XTBzNjj6OXc7TIlzneD3sRs9gzpRs-B6Kl_hnKb0H2KbEFclw7gedjA" alt="imgAcabamento" />
-                <div>
-                    <h3>Acabamento</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
-                    <Btn>More</Btn>
-                </div> 
-            </article>
-            <article className={styles.revers}>
-                <img src="https://www.centraldalapa.com/wp-content/uploads/2016/11/Um-aumento-na-demanda-de-equipamentos-requereu-melhores-instalaes-eltricas.jpg" alt="imgEletrica" />
-                <div>
-                    <h3>Elétrica</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
-                    <Btn>More</Btn>
-                </div>
-            </article>
-            <article className={styles.revers2}>
-                <img src="https://faculdadeeleven.com.br/wp-content/uploads/2024/01/curso-de-reparos-e-reformas-hidraulica.webp" alt="imgReparos" />
-                <div>
-                    <h3>Reparos</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, et veniam harum, culpa perferendis unde voluptatum laborum labore natus at nobis tempore libero ipsum fuga ab accusantium error, soluta necessitatibus!</p>
-                    <Btn>More</Btn>
-                </div>
-            </article>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="https://static3.depositphotos.com/1010695/262/i/450/depositphotos_2622490-stock-photo-restoration-works-the-house-painter.jpg" />
+                <Card.Body>
+                    <Card.Title>Pintura</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">More</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="https://lh5.googleusercontent.com/proxy/R_GTAXtefZ-VJpXJHhguKFynsRRBiKpuJxrajWag8ZosIyn3XTBzNjj6OXc7TIlzneD3sRs9gzpRs-B6Kl_hnKb0H2KbEFclw7gedjA" />
+                <Card.Body>
+                    <Card.Title>Acabamento</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">More</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="https://www.centraldalapa.com/wp-content/uploads/2016/11/Um-aumento-na-demanda-de-equipamentos-requereu-melhores-instalaes-eltricas.jpg" />
+                <Card.Body>
+                    <Card.Title>Elétrica</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">More</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="https://faculdadeeleven.com.br/wp-content/uploads/2024/01/curso-de-reparos-e-reformas-hidraulica.webp" />
+                <Card.Body>
+                    <Card.Title>Reparos</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">More</Button>
+                </Card.Body>
+            </Card>
         </div>
         <div className={styles.historic}>
             <div> 

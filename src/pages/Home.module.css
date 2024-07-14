@@ -14,32 +14,13 @@
     text-align: center;
 }
 /*SERVICES*/
-.service article img{
-    height: 270px;
-    width: 270px;
-    border-radius: 130px;
-}
 
-.service div{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    justify-content: center;
-}
-
-.revers{
+.service{
     display: flex;
     flex-direction: row;
-    background-color: rgb(127, 199, 253);
-    padding: 20px;
+    justify-content: space-around;
 }
 
-.revers2{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(104 180 237);
-    padding: 20px;
- }
  /*HISTORIC*/
  .historic{
     background-color: rgb(53, 91, 121);

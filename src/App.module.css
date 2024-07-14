@@ -93,3 +93,9 @@
   margin: 5px;
   text-decoration: none;
 }
+
+@media(min-width: 320px) and (max-width: 767px){
+  .header{
+    background-color: brown;
+  }
+}
