@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 const Cards = (props) => {
     return (
@@ -10,7 +11,7 @@ const Cards = (props) => {
                 <Card.Text>
                     {props.txt}
                 </Card.Text>
-                <Button variant="primary">More</Button>
+                <Button variant="outline-success"><Link className='text-decoration-none text-black' to="/">More</Link></Button>
             </Card.Body>
         </Card>
     )

@@ -19,10 +19,10 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1"><Link className="text-decoration-none text-black" to="/">Home</Link></Nav.Link>
-            <Nav.Link href="#action2"><Link className="text-decoration-none text-black" to="/about">About</Link></Nav.Link>
-            <Nav.Link href="#action2"><Link className="text-decoration-none text-black" to="/doubts">Doubts</Link></Nav.Link>
-            <Nav.Link href="#action2"><Link className="text-decoration-none text-black" to="/contact">Contact</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/">Home</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/about">About</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/doubts">Doubts</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/contact">Contact</Link></Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

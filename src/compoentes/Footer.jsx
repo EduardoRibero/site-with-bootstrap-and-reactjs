@@ -9,7 +9,7 @@ const Footer = () => {
         <Container>
             <Row>
                 <Col>
-                    <p>© 2024 Sua Empresa. Todos os direitos reservados.</p>
+                    <p>© 2024 Eduardo Ribeiro Domingues. Todos os direitos reservados.</p>
                 </Col>
             </Row>
             <Row>
