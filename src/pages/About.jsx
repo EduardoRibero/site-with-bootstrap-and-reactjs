@@ -1,5 +1,6 @@
 import { Container, Col, Row, Image, Button } from "react-bootstrap"
 import CardsPrinciples from '../compoentes/CardPrinciples'
+import FormComponent from '../compoentes/FormComponent'
 
 
 const About = () => {
@@ -32,7 +33,7 @@ const About = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={6} xs={12}>
             <div className="pt-5 mt-5 mb-5 pb-5">
               <address>
                 R. leoneu pereira, N° 167, Vargem do Bom Jesus, Florianopolis - SC <br /> CEP: 88056-617
@@ -46,6 +47,11 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt porro maiores perferendis assumenda quisquam inventore mollitia. Vel consectetur incidunt qui odio sunt exercitationem sequi iure, labore dicta culpa explicabo. Nam.
               </p>
               <Button variant="outline-success">Budget</Button>
+            </div>
+          </Col>
+          <Col md={6} xs={12}>
+            <div className="pt-5 mt-5 mb-5 pb-5">
+              <FormComponent></FormComponent>
             </div>
           </Col>
         </Row>
