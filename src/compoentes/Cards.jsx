@@ -11,7 +11,7 @@ const Cards = (props) => {
                 <Card.Text>
                     {props.txt}
                 </Card.Text>
-                <Button variant="outline-success"><Link className='text-decoration-none text-black' to="/">More</Link></Button>
+                <Button variant="outline-success"><Link className='text-decoration-none text-black' to="/">Mais</Link></Button>
             </Card.Body>
         </Card>
     )

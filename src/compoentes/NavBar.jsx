@@ -19,19 +19,19 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/site-with-bootstrap-and-reactjs/">Home</Link></Nav.Link>
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/about">About</Link></Nav.Link>
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/doubts">Doubts</Link></Nav.Link>
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/contact">Contact</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/site-with-bootstrap-and-reactjs/">Início</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/about">Sobre</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/doubts">Dúvidas</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/contact">Contatos</Link></Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Procurar"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">Pesquisar</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

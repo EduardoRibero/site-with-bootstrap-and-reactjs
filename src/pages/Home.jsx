@@ -17,10 +17,11 @@ const Home = () => {
                 <Row className='mt-5 mb-5'>
                     <Col className='text-center'>
                         <h1 className='p-5 m-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto velit odit, eveniet vitae at facere harum rerum laboriosam recusandae temporibus quo consectetur qui laborum suscipit accusamus numquam laudantium debitis.</h1>
-                        <Button className='mt-5 mb-5' variant="outline-success"><Link className='text-decoration-none text-black' to="/budget">Budget</Link></Button>
+                        <Button className='mt-5 mb-5' variant="outline-success"><Link className='text-decoration-none text-black' to="/budget">Agenda</Link></Button>
                     </Col>
                 </Row>
-                <Row className='mt-5 mb-5'>
+                <Row className='mt-5 mb-5 '>
+                <h2 className='mt-4 pt-4'>Principais serviços prestados</h2>
                     <Col className='mt-5 mb-5'>
                         <Cards
                             img="https://static3.depositphotos.com/1010695/262/i/450/depositphotos_2622490-stock-photo-restoration-works-the-house-painter.jpg"
@@ -63,11 +64,13 @@ const Home = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5 mb-5'>
+                    <h2 className='mt-4 pt-4 pb-4 tb-4'>Galeria</h2>
                     <Col >
                         <Historic></Historic>
                     </Col>
                 </Row>
                 <Row >
+                     <h2 className='mt-4 pt-4'>Avaliações</h2>
                     <Col className='mt-5 mb-5'>
                         <CardAssessment
                             img="https://www.otimizy.com.br/wp-content/uploads/2017/05/atendimento-ao-cliente.jpg"

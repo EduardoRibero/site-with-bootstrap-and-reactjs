@@ -4,23 +4,21 @@ import Form from 'react-bootstrap/Form';
 const FormComponent = () => {
     return (
         <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text>
+             <Form.Label className='mb-4'>Deixe seu contato que um de nossos consultores vai entrar em contato com você.</Form.Label>
+            <Form.Group className="mb-3" controlId="formBasicName">
+                <Form.Label>Como gostaria de ser chamado:</Form.Label>
+                <Form.Control type="name" placeholder="Nome" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>WhatsApp</Form.Label>
-                <Form.Control type="text" placeholder="your whatsapp" />
+            <Form.Group className="mb-3" controlId="formBasicFone">
+                <Form.Label>Número para contato:</Form.Label>
+                <Form.Control type="text" placeholder="Telefone" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Receber mensagens via whatsapp ou email." />
+                <Form.Check type="checkbox" label="Esse número possui WhatsApp." />
             </Form.Group>
             <Button variant="primary" type="submit">
-                Submit
+                Enviar
             </Button>
         </Form>
     )

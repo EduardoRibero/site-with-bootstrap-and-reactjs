@@ -1,6 +1,7 @@
 import { Container, Col, Row, Image, Button } from "react-bootstrap"
 import CardsPrinciples from '../compoentes/CardPrinciples'
 import FormComponent from '../compoentes/FormComponent'
+import { Link } from "react-router-dom"
 
 
 const About = () => {
@@ -15,13 +16,13 @@ const About = () => {
             </p>
           </Col>
           <Col md={6} xs={12}>
-            <Image className="img-fluid" height={580} width={700}  src="https://www.getwet.com.br/wp-content/uploads/2021/05/construction-site-1477687_1920-Personalizado.jpg"></Image>
+            <Image className="img-fluid" height={580} width={700}  src="https://www.getwet.com.br/wp-content/uploads/2021/05/construction-site-1477687_1920-Personalizado.jpg" thumbnail></Image>
           </Col>
         </Row>
         <Row>
           <Col>
             <h1>Principios</h1>
-          </Col>
+          </Col>    
         </Row>
         <Row>
           <Col>
@@ -36,17 +37,17 @@ const About = () => {
           <Col md={6} xs={12}>
             <div className="pt-5 mt-5 mb-5 pb-5">
               <address>
-                R. leoneu pereira, N° 167, Vargem do Bom Jesus, Florianopolis - SC <br /> CEP: 88056-617
+                R. Leoneu Pereira, N° 167, Vargem do Bom Jesus, Florianópolis - SC <br /> CEP: 88056-617
               </address>
               <p>
-                Email: <a href="/">ribeirodomingues2020@gmail.com</a>
+                Email: ribeirodomingues2020@gmail.com
                 <br />
-                WhatsApp: <a href="https://wa.me/5548999442618">48 99944-2618</a>
+                WhatsApp: <Link className="text-decoration-none text-black" to='https://wa.me/5548999442618'>48 99944-2618</Link> 
               </p>
               <p className="w-50">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt porro maiores perferendis assumenda quisquam inventore mollitia. Vel consectetur incidunt qui odio sunt exercitationem sequi iure, labore dicta culpa explicabo. Nam.
               </p>
-              <Button variant="outline-success">Budget</Button>
+              <Button variant="outline-success">Agenda</Button>
             </div>
           </Col>
           <Col md={6} xs={12}>

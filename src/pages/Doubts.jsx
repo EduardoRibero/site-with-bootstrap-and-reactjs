@@ -9,7 +9,7 @@ const Doubts = () => {
         <Row>
           <Col className="text-center m-5 p-5">
             <h1>
-              Duvidas  frequentes
+              Dúvidas  Frequentes
             </h1>
           </Col>
         </Row>
@@ -20,8 +20,8 @@ const Doubts = () => {
         </Row>
         <Row>
           <Col  className="text-center m-5 p-5">
-            <h2>Aqui você pode deixar suas duvidas também</h2>
-            <p>Deixei seu nome e numero para que possamos responder.</p>
+            <h2>Aqui você pode deixar suas dúvidas também</h2>
+            <p>Deixe seu nome e número de telefone para que possamos responder.</p>
           </Col>
         </Row>
         <Row>
