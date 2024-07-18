@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="/"><Image width="65" height="65" variant="top-start" src="https://i.pinimg.com/736x/05/4b/b7/054bb7ee1b049a649f538d87292ed953.jpg" roundedCircle></Image></Navbar.Brand>
+        <Navbar.Brand href="/site-with-bootstrap-and-reactjs"><Image width="65" height="65" variant="top-start" src="https://i.pinimg.com/736x/05/4b/b7/054bb7ee1b049a649f538d87292ed953.jpg" roundedCircle></Image></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -19,7 +19,7 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/">Home</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/site-with-bootstrap-and-reactjs">Home</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/about">About</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/doubts">Doubts</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/contact">Contact</Link></Nav.Link>
