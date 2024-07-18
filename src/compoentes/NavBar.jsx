@@ -19,7 +19,7 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link ><Link className="text-decoration-none text-black" to="/site-with-bootstrap-and-reactjs">Home</Link></Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-black" to="/site-with-bootstrap-and-reactjs/">Home</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/about">About</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/doubts">Doubts</Link></Nav.Link>
             <Nav.Link ><Link className="text-decoration-none text-black" to="/contact">Contact</Link></Nav.Link>

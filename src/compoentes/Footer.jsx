@@ -14,7 +14,7 @@ const Footer = () => {
             </Row>
             <Row>
                 <Col>
-                    <Link to="/site-with-bootstrap-and-reactjs" className="text-decoration-none text-black p-3">Home</Link>
+                    <Link to="/site-with-bootstrap-and-reactjs/" className="text-decoration-none text-black p-3">Home</Link>
                     <Link to="/about" className="text-decoration-none text-black p-3">About</Link>
                     <Link to="/doubts" className="text-decoration-none text-black p-3">Doubts</Link>
                     <Link to="/contact" className="text-decoration-none text-black p-3">contact</Link>

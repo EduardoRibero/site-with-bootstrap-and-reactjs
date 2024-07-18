@@ -16,7 +16,7 @@ function App() {
         <NavBar></NavBar>
         <Routes>
           <Route>
-            <Route path="/site-with-bootstrap-and-reactjs" element={<Home/>}/>
+            <Route path="/site-with-bootstrap-and-reactjs/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/doubts" element={<Doubts/>}/>
             <Route path="/contact" element={<Contact/>}/>

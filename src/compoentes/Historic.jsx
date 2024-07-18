@@ -2,8 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Historic = () => {
     return (
-        <Carousel data-bs-theme="dark">
-            <Carousel.Item >
+        <Carousel>
+            <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src="https://civilizacaoengenheira.wordpress.com/wp-content/uploads/2023/06/image.png?w=886"
