@@ -16,7 +16,7 @@ const Home = () => {
             <Container fluid="md">
                 <Row className='mt-5 mb-5'>
                     <Col className='text-center'>
-                        <h1 className='p-5 m-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto velit odit, eveniet vitae at facere harum rerum laboriosam recusandae temporibus quo consectetur qui laborum suscipit accusamus numquam laudantium debitis.</h1>
+                        <h1 className='p-5 m-4'>{"Seja Bem Vindo(a) ! /n algum texto de boas vindas/ slogan da empresa/ frase de efeito"}</h1>
                         <Button className='mt-5 mb-5' variant="outline-success"><Link className='text-decoration-none text-black' to="/budget">Agenda</Link></Button>
                     </Col>
                 </Row>
@@ -28,8 +28,7 @@ const Home = () => {
 
                             title="Pintura"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Realizamos pequenas e grandes pinturas, texturas, aplicação de massa corrida.">
                         </Cards>
                     </Col>
                     <Col className='mt-5 mb-5'>
@@ -38,8 +37,7 @@ const Home = () => {
 
                             title="Acabamento"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Realizamos os mais diversos tipos de acabamento desde os mais complexos">
                         </Cards>
                     </Col>
                     <Col className='mt-5 mb-5'>
@@ -48,8 +46,7 @@ const Home = () => {
 
                             title="Elétrica"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Todo tipo de de elétrica, desde alguns pontos na sua casa até mesmo elétrica predial">
                         </Cards>
                     </Col>
                     <Col className='mt-5 mb-5'>
@@ -58,8 +55,7 @@ const Home = () => {
 
                             title="Reparos"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Todo tipo de reparo para sua casa, apartamento, pequenos e grandes estabelecimento.">
                         </Cards>
                     </Col>
                 </Row>
@@ -77,8 +73,7 @@ const Home = () => {
 
                             title="Edivandro Reirs"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Gostei muito do serviço! Pessoal educado e cuidadosos.">
                         </CardAssessment>
                     </Col>
                     <Col className='mt-5 mb-5'>
@@ -87,8 +82,7 @@ const Home = () => {
 
                             title="Aline Morais Reirs"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Resolveram meu problema de forma eficiente e organizada.">
                         </CardAssessment>
                     </Col>
                     <Col className='mt-5 mb-5'>
@@ -97,8 +91,7 @@ const Home = () => {
 
                             title="Carlos Umberto"
 
-                            txt="Some quick example text to build on the card title and make up the
-                            bulk of the card's content.">
+                            txt="Muito boa a equipe que contratei para o meu condiminiu.">
                         </CardAssessment>
                     </Col>
                 </Row>

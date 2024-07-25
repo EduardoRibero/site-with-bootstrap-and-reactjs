@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 const FormComponent = () => {
     return (
         <Form>
-             <Form.Label className='mb-4'>Deixe seu contato que um de nossos consultores vai entrar em contato com você.</Form.Label>
+            <Form.Label className='mb-4'>Deixe seu contato que um de nossos consultores vai entrar em contato para falar com você.</Form.Label>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Como gostaria de ser chamado:</Form.Label>
                 <Form.Control type="name" placeholder="Nome" />
@@ -15,7 +15,7 @@ const FormComponent = () => {
                 <Form.Control type="text" placeholder="Telefone" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Esse número possui WhatsApp." />
+                <Form.Check type="checkbox" label="Este número possui WhatsApp." />
             </Form.Group>
             <Button variant="primary" type="submit">
                 Enviar

@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Exemplar Site comercial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi contruido para demonstrar minhas noção no desenvolvimento front-end. 
+Ainda tem muito a ser feito mas caso queira dar uma olhada no site, você pode acessar:
+https://eduardoribero.github.io/site-with-bootstrap-and-reactjs/
 
 ## Available Scripts
 
